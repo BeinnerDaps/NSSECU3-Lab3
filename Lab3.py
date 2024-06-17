@@ -93,7 +93,7 @@ def main():
 
     # Set up argument parser
     parser = argparse.ArgumentParser(description="Save registry hives or use provided files.")
-    parser.add_argument('-v', '--save-hives', action='store_true', help="Flag to save the SAM, SYSTEM, SOFTWARE, and SECURITY hives.")
+    parser.add_argument('-v','--save-hives', action='store_true', help="Flag to save the SAM, SYSTEM, SOFTWARE, and SECURITY hives.")
     parser.add_argument('-m','--sam-file', type=str, help="Path to the SAM file.")
     parser.add_argument('-y','--system-file', type=str, help="Path to the SYSTEM file.")
     parser.add_argument('-w','--software-file', type=str, help="Path to the SOFTWARE file.")
